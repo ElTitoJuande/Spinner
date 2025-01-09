@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinners</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Spinners</h1>
+    <ul>
+        <li>Tipos
+            <ul>
+                <li>Border spinners</li>
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-border text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <li>Growing spinners</li>
+                <div class="spinner-grow text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="spinner-grow text-warning" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </ul>
+        </li>
+        <li>Tamaño</li>
+        <div class="spinner-border spinner-border-sm text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow spinner-grow-md text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-border text-success" style="width: 5rem; height: 5rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <li>Alineacióin y posición</li>
+        <li class="list-group-item">
+            <strong>Alineación:</strong> Los spinners usan <code>inline-flex</code>, lo que permite una fácil
+            alineación.
+            <div class="spinner-border mt-3" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <strong>Margen:</strong> Puedes usar utilidades como <code>.m-5</code> para añadir espaciado.
+            <div class="spinner-border m-5" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <strong>Flexbox:</strong> Usa clases como <code>d-flex</code> para centrar elementos horizontal o
+            verticalmente.
+            <div class="d-flex justify-content-center mt-3">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+                <strong>Loading...</strong>
+                <div class="spinner-border ms-auto" role="status"></div>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <strong>Flotantes:</strong> Usa <code>float-end</code> para alinear el spinner al final.
+            <div class="clearfix mt-3">
+                <div class="spinner-border float-end" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </li>
+
+        <li class="list-group-item">
+            <strong>Alineación de texto:</strong> Usa <code>text-center</code> para centrar los spinners.
+            <div class="text-center mt-3">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </li>
+        <li>Botones con spinners</li>
+        <button class="btn btn-info" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+            <span class="visually-hidden" role="status">Loading...</span>
+        </button>
+        <button class="btn btn-success" type="button" disabled>
+            <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
+            <span role="status">Loading...</span>
+        </button>
+        <li>Keyframes</li>
+        <h1>CSS Spinners Loaders</h1>
+        <div class="sep"></div>
+        <div class="container">
+            <div class="loader loader1"></div>
+            <div class="loader loader2"></div>
+            <div class="loader loader3"></div>
+            <div class="loader loader4"></div>
+            <div class="loader loader5"></div>
+            <div class="loader loader6"></div>
+            <div class="loader loader7"></div>
+            <div class="loader loader8"></div>
+            <div class="loader loader9"></div>
+            <div class="loader loader10"></div>
+        </div>
+    </ul>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
